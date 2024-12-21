@@ -1,0 +1,51 @@
+text
+# Phishing para Captura de Senhas do Conta Google
+
+Este projeto demonstra técnicas de phishing para fins educacionais, visando aumentar a conscientização sobre segurança cibernética.
+O uso de phishing é ilegal e antiético; este projeto deve ser utilizado apenas em ambientes controlados e com permissão explícita.
+
+## Ferramentas
+
+- **Kali Linux**: Uma distribuição Linux voltada para testes de penetração e segurança.
+- **setoolkit**: Um conjunto de ferramentas para realizar ataques de engenharia social.
+
+## Configurando o Phishing no Kali Linux
+
+Siga os passos abaixo para configurar o ambiente:
+
+1. **Acesso root**:
+sudo su
+text
+
+2. **Iniciando o setoolkit**:
+setoolkit
+text
+
+3. **Selecionando o tipo de ataque**:
+- Tipo de ataque: `Social-Engineering Attacks`
+- Vetor de ataque: `Web Site Attack Vectors`
+- Método de ataque: `Credential Harvester Attack Method`
+- Método de ataque: `Site Cloner`
+- Local de ataque: `conta google`
+
+4. **Obtendo o endereço da máquina**:
+ifconfig
+text
+
+5. **URL para clone**:
+- Utilize a URL: `http://www.google.com`
+
+## Resultados
+
+Após a execução do ataque simulado, você poderá visualizar os resultados na interface do setoolkit.
+
+![Resultados do Phishing](./passwd.png "Captura de tela dos resultados")
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para discutir melhorias.
+
+## Aviso Legal
+
+Este projeto é destinado exclusivamente para fins educacionais. O uso indevido das informações aqui apresentadas pode resultar em consequências legais. 
+Sempre obtenha permissão antes de realizar testes de segurança em sistemas que não são seus.
